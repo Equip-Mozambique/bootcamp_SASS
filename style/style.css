@@ -1,0 +1,46 @@
+.titulo, .memory, .segunda, body {
+  color: red;
+  font-size: 1.5em !important;
+}
+
+body {
+  background-color: rgb(71, 71, 71);
+}
+
+.segunda {
+  font-size: 43px;
+}
+
+.tabela1 {
+  padding: 35px;
+  border: 3px dashed black;
+  background: aqua;
+  font-weight: bold;
+  color: darkgreen;
+}
+
+.tabela2 {
+  padding: 35px;
+  border: 3px dashed black;
+  background: aqua;
+  font-weight: bold;
+  color: darkgreen;
+}
+
+.tabela3 {
+  margin-top: 64px;
+  padding: 32px;
+  font-size: 20px;
+  background: moccasin;
+}
+.tabela3::before {
+  content: 'Inicio do bootcamp :';
+}
+
+.memory {
+  color: red;
+}
+
+.mems {
+  color: rgb(71, 71, 71);
+}/*# sourceMappingURL=style.css.map */
