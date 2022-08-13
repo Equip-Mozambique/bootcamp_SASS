@@ -14,7 +14,7 @@
   text-align: center;
 }
 
-.padding {
+.padding, #posts {
   padding: 23px;
 }
 
@@ -117,4 +117,8 @@
   inset: 0;
   left: -7px;
   margin: auto;
+}
+
+#posts .item {
+  display: contents;
 }/*# sourceMappingURL=style.css.map */
