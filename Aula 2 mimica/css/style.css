@@ -139,4 +139,19 @@
 #posts .item img {
   width: 100%;
   border-radius: 16px;
+}
+
+.footer {
+  position: fixed;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+}
+.footer .mini-buttons {
+  background: white;
+  margin-top: -25px;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 23px;
 }/*# sourceMappingURL=style.css.map */

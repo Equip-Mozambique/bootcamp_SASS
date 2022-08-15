@@ -188,4 +188,21 @@
 }
 
 
+.footer {
+    position: fixed;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+
+    .mini-buttons {
+        background: white;
+        margin-top: -25px;
+        padding-bottom: 16px;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 23px;
+    }
+}
+
+
 
