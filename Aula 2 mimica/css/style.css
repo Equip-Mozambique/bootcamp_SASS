@@ -119,6 +119,24 @@
   margin: auto;
 }
 
+#posts .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 #posts .item {
-  display: contents;
+  width: calc(33.3% - 8px);
+  margin-bottom: 8px;
+  padding: 0px;
+}
+#posts .item:nth-child(5n) {
+  width: calc(66.6% - 4px);
+  height: 0;
+}
+#posts .item:nth-child(5n) img {
+  color: #474747;
+}
+#posts .item img {
+  width: 100%;
+  border-radius: 16px;
 }/*# sourceMappingURL=style.css.map */
