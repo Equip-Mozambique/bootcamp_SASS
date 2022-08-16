@@ -164,7 +164,8 @@ body {
   right: 0;
   bottom: 0;
 }
-.footer .svg, .footer .mini-buttons {
+.footer .svg,
+.footer .mini-buttons {
   width: 402px;
   position: absolute;
   bottom: 20px;
